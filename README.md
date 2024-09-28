@@ -1,2 +1,5 @@
 # Data-Entry-Form
-front and back end codse
+front and back end codes
+Here’s a simple form for data entry using HTML, CSS, and JavaScript that includes fields
+for First Name, Last Name, Age, Education Level, City, and Country.
+This form captures the data and performs basic validation using JavaScript.
