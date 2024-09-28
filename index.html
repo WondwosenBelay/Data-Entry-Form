@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>BELAY FAMILY SERVER</h2>
+        <form id="dataEntryForm">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="education">Education Level:</label>
+            <select id="education" name="education" required>
+                <option value="">Select...</option>
+                <option value="High School">High School</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+                <option value="PhD">PhD</option>
+            </select>
+            
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
